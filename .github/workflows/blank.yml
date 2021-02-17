@@ -35,6 +35,7 @@ jobs:
         run: echo "ZZZ$AA"
       - run: echo "::add-matcher::flexlm.json"
       - run: cat log.txt
+      - run: echo "::error file=app.js,line=10,col=15::Something went wrong"
       
         
 
