@@ -12,7 +12,7 @@
                 {
                     // Matches the second line in the output
                     "regexp": "^(.*)$",
-                    "error": 1
+                    "message": 1
                 },
                 {
                     // Matches the third line in the output
