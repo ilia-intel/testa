@@ -33,6 +33,9 @@ jobs:
         env: 
          AA: ${{contains(github.event_name,'schedule')}}
         run: echo "ZZZ$AA"
+      - run: echo "::add-matcher::flexlm.json"
+      - run: cat log.txt
+      
         
 
       # Runs a set of commands using the runners shell
