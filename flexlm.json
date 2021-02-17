@@ -6,7 +6,7 @@
                 {
                     // Matches the 1st line in the output
                     "regexp": "^(.*) license error: Error \\(License Manager\\): problem while obtaining licenses for .*$",
-                    "module": 1
+                    "file": 1
                     
                 },
                 {
