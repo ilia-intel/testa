@@ -1,0 +1,17 @@
+some 
+e
+de
+d
+ee
+DW APB UART license error: Error (License Manager): problem while obtaining licenses for SNPS DW APB UART: 
+Licensed number of users already reached. 
+Feature: synopsys_designware_tlm_lib 
+License path: 26586@synopsys45p.elic.intel.com: 
+FlexNet Licensing error:-4,234 
+Aborting .... <licensing_027>
+32
+
+er23
+er32
+r
+
