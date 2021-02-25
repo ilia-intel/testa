@@ -18,7 +18,7 @@ async function run() {
       name: "Check Created by API",
       head_sha: gitHubSha,
       status: "completed",
-      conclusion: "success",
+      conclusion: "error",
       output: {
         title: "Check Created by API",
         summary: `# All good ![step 1](https://www.imore.com/sites/imore.com/files/styles/w1600h900crop/public/field/image/2019/07/pokemonswordshieldstartertrio.jpg "Step 1")`
