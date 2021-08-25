@@ -1,31 +1,17 @@
 {
     "problemMatcher": [
         {
-            "owner": "flexlm",
+            "owner": "warning",
             "pattern": [
                 {
                     // Matches the 1st line in the output
-                    "regexp": "^(.*) license error: Error \\(License Manager\\): problem while obtaining licenses for .*$",
-                    "file": 1
-                    
-                },
-                {
-                    // Matches the second line in the output
-                    "regexp": "^(.*)$",
-                    "message": 1
-                },
-                {
-                    // Matches the third line in the output
-                    "regexp": "^Feature: (.*)$",
-                    "feature": 1
-                    
-                },
-                {
-                    // Matches the forth line in the output
-                    "regexp": "^License path: (.*):",
-                    "server": 1
+                    "regexp": "^{C..:\\w+} W \\((\\S+):(\\d+) \\S+\\) (.+)",
+                    "file": 1,
+                    "line": 2,
+                     "message": 3
                     
                 }
+               
                 
 
                
