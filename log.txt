@@ -1,5 +1,5 @@
 111
-{C00:net_defer} W (log.txt:1 eqos::eqos_init_dirty_rx_descs) ALL RX descriptors are dirty: first_dirty_desc_idx 4 num_dirty_desc 16
-{C00:net_defer} E (log.txt:2 eqos::eqos_init_dirty_rx_descs) ALL RX descriptors are dirty: first_dirty_desc_idx 4 num_dirty_desc 16
+{C00:net_defer} W (log.txt:1 eqos::eqos_init_dirty_rx_descs) warn ALL RX descriptors are dirty: first_dirty_desc_idx 4 num_dirty_desc 16
+{C00:net_defer} E (log.txt:2 eqos::eqos_init_dirty_rx_descs) err ALL RX descriptors are dirty: first_dirty_desc_idx 4 num_dirty_desc 16
 
 222
