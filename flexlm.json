@@ -17,6 +17,25 @@
 
                
             ]
+        },
+        {
+            "owner": "err",
+            "severity":"error",
+            "pattern": [
+                {
+                    
+                    "regexp": "^{C..:\\w+} E \\((\\S+):(\\d+) \\S+\\) (.+)",
+                    "file": 1,
+                    "line": 2,
+                     "message": 3
+                    
+                }
+               
+                
+
+               
+            ]
         }
+
     ]
 }
