@@ -4,7 +4,7 @@
             "owner": "warning",
             "pattern": [
                 {
-                    // Matches the 1st line in the output
+                    
                     "regexp": "^{C..:\\w+} W \\((\\S+):(\\d+) \\S+\\) (.+)",
                     "file": 1,
                     "line": 2,
