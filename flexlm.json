@@ -2,6 +2,7 @@
     "problemMatcher": [
         {
             "owner": "warning",
+            "severity":"warning",
             "pattern": [
                 {
                     
