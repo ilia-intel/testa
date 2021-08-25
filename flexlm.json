@@ -1,41 +1,39 @@
 {
-    "problemMatcher": [
+  "problemMatcher": [
+    {
+      "owner": "assert-problem-matcher",
+      "pattern": [
         {
-            "owner": "warning",
-            "severity":"warning",
-            "pattern": [
-                {
-                    
-                    "regexp": "^{C..:\\w+} W \\((\\S+):(\\d+) \\S+\\) (.+)",
-                    "file": 1,
-                    "line": 2,
-                     "message": 3
-                    
-                }
-               
-                
-
-               
-            ]
-        },
-        {
-            "owner": "err",
-            "severity":"error",
-            "pattern": [
-                {
-                    
-                    "regexp": "^{C..:\\w+} E \\((\\S+):(\\d+) \\S+\\) (.+)",
-                    "file": 1,
-                    "line": 2,
-                     "message": 3
-                    
-                }
-               
-                
-
-               
-            ]
+          "regexp": "^.*\\((.*):(\\d+).*\\) (Assertion failed|Unhandled Exception.*)$",
+          "file": 1,
+          "line": 2,
+          "message": 3
         }
-
-    ]
+      ]
+    },
+    {
+      "owner": "warning-problem-matcher",
+      "severity": "warning",
+      "pattern": [
+        {
+          "regexp": "^\\[.+\\] {C..:\\w+} W \\((\\S+):(\\d+) \\S+\\) (.+)",
+          "file": 1,
+          "line": 2,
+          "message": 3
+        }
+      ]
+    },
+    {
+      "owner": "error-problem-matcher",
+      "severity": "error",
+      "pattern": [
+        {
+          "regexp": "^\\[.+\\] {C..:\\w+} E \\((\\S+):(\\d+) \\S+\\) (.+)",
+          "file": 1,
+          "line": 2,
+          "message": 3
+        }
+      ]
+    }
+  ]
 }
