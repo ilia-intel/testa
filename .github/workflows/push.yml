@@ -1,11 +1,12 @@
 on:
+  pull_request:
   push:
     branches:
       - "*"
 jobs:
   create_status_check_job:
     runs-on: ubuntu-latest
-    name:
+    name: ccc
     steps:
       - name: Checkout
         uses: actions/checkout@v1
